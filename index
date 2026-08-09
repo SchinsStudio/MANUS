@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RETLED × Kallas Mídia OOH — Proposta de Parceria Estratégica</title>
+<meta name="description" content="RETLED Comunicação Digital — operação de DOOH no eixo Eusébio–Caucaia e Fortaleza. Proposta de parceria e representação comercial com a Kallas Mídia OOH.">
+<meta name="author" content="RETLED Comunicação Digital">
+<meta name="robots" content="noindex,nofollow">
+<meta property="og:title" content="RETLED × Kallas Mídia OOH — Proposta de Parceria">
+<meta property="og:description" content="Capilaridade local, execução comprovada e inventário digital no Ceará.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preload" href="assets/fonts/VisbyCF-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/VisbyCF-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Barra de progresso de leitura -->
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo" aria-label="RETLED — início">
+      <img src="assets/img/retled-white.png" alt="RETLED" id="navLogo">
+    </a>
+
+    <nav class="nav__menu" id="navMenu" aria-label="Navegação principal">
+      <a href="#quem-somos" class="nav__link">Quem somos</a>
+      <a href="#grupo-ret" class="nav__link">Grupo Ret</a>
+      <a href="#equipe" class="nav__link">Equipe</a>
+      <a href="#pilares" class="nav__link">Pilares</a>
+      <a href="#evolucao" class="nav__link">Evolução</a>
+      <a href="#inventario" class="nav__link">Inventário</a>
+      <a href="#conquistas" class="nav__link">Conquistas</a>
+      <a href="#parceria" class="nav__link">Parceria</a>
+
+      <!-- Controles espelhados para o menu mobile, onde a barra não tem espaço -->
+      <div class="nav__menu-tools">
+        <button class="btn btn--ghost" id="themeToggleM">Alternar tema</button>
+        <button class="btn btn--ghost" id="motionToggleM">Reduzir animações</button>
+      </div>
+    </nav>
+
+    <div class="nav__tools">
+      <!-- Controles de tamanho de texto -->
+      <div class="tool-group" role="group" aria-label="Tamanho do texto">
+        <button class="tool tool--sm" id="textDown" aria-label="Diminuir tamanho do texto" title="Diminuir texto (Ctrl+-)">A−</button>
+        <button class="tool" id="textReset" aria-label="Restaurar tamanho do texto" title="Tamanho original">A</button>
+        <button class="tool tool--lg" id="textUp" aria-label="Aumentar tamanho do texto" title="Aumentar texto (Ctrl++)">A+</button>
+      </div>
+      <!-- Alternar tema -->
+      <button class="tool" id="themeToggle" aria-label="Alternar tema claro/escuro" title="Alternar tema">
+        <svg viewBox="0 0 24 24" id="themeIcon"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg>
+      </button>
+      <!-- Reduzir movimento -->
+      <button class="tool" id="motionToggle" aria-label="Reduzir animações" title="Reduzir animações" aria-pressed="false">
+        <svg viewBox="0 0 24 24"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+      </button>
+      <a href="#parceria" class="nav__cta">Proposta</a>
+      <button class="nav__burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__media">
+    <!-- SUGESTÃO DE IMAGEM/VÍDEO 01 -->
+    <!-- Substitua por: assets/video/hero.mp4 — drone descendo sobre a Av. Eusébio de Queiroz ao
+         anoitecer, com um painel RETLED aceso em primeiro plano. 12–18s, loop, sem áudio, ~4MB.
+         Enquanto não houver vídeo, a textura grain abaixo sustenta o fundo. -->
+    <video id="heroVideo" autoplay muted loop playsinline poster="assets/img/grain-9.jpg" aria-hidden="true">
+      <!-- <source src="assets/video/hero.mp4" type="video/mp4"> -->
+    </video>
+  </div>
+  <div class="hero__grain" aria-hidden="true"></div>
+  <div class="hero__scan" aria-hidden="true"></div>
+
+  <div class="wrap hero__inner">
+    <span class="hero__badge"><span class="dot"></span>Reunião de parceria estratégica</span>
+
+    <div class="hero__logo hero__logo-mask">
+      <img src="assets/img/retled-lockup-white.png" alt="RETLED — Comunicação Digital">
+    </div>
+
+    <p class="hero__tagline">
+      Somos a operação de <strong>Digital Out Of Home</strong> que transforma os trajetos da
+      Grande Fortaleza em pontos de conexão entre marcas e pessoas — com a execução que uma
+      operação nacional precisa encontrar em uma parceira local.
+    </p>
+
+    <div class="hero__meta">
+      <div class="hero__meta-item">
+        <span class="hero__meta-val counter" data-count="3" data-suffix=" anos">0</span>
+        <span class="hero__meta-lbl">De mercado</span>
+      </div>
+      <div class="hero__meta-item">
+        <span class="hero__meta-val counter" data-count="11" data-suffix="+">0</span>
+        <span class="hero__meta-lbl">Faces digitais</span>
+      </div>
+      <div class="hero__meta-item">
+        <span class="hero__meta-val counter" data-count="4" data-suffix="">0</span>
+        <span class="hero__meta-lbl">Empresas no grupo</span>
+      </div>
+      <div class="hero__meta-item">
+        <span class="hero__meta-val">100%</span>
+        <span class="hero__meta-lbl">Check-in no mesmo dia</span>
+      </div>
+    </div>
+
+    <div class="hero__actions">
+      <a href="#parceria" class="btn btn--led btn--lg">
+        A proposta de parceria
+        <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="#inventario" class="btn btn--ghost btn--lg">Ver o inventário</a>
+    </div>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true">
+    <span>Role</span>
+    <span class="hero__scroll-line"></span>
+  </div>
+</section>
+
+<!-- ============ QUEM SOMOS ============ -->
+<section class="section section--alt section--grain" id="quem-somos">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">01 — Identidade</span>
+      <h2 class="sec-title">Quem somos?</h2>
+      <p class="sec-note">Retled Comunicação Digital LTDA · CNPJ 50.806.731/0001-05 · Fundada em 24 de maio de 2023</p>
+    </div>
+
+    <div class="about__intro reveal">
+      <p class="lead">
+        A <strong>RETLED</strong> nasceu em 2023 no Eusébio com uma convicção simples: no
+        <em>out of home</em>, não basta ter tela — é preciso ter o ponto certo, o equipamento certo
+        e a prestação de contas certa. Fundada por <strong>Carlos Ribeiro</strong> e
+        <strong>Leydson Souza</strong>, a empresa atua no segmento de <strong>Digital Out Of Home</strong>
+        maximizando a visibilidade das marcas e auxiliando parceiros a impulsionar resultados reais.
+      </p>
+      <p>
+        Operamos hoje no eixo <strong>Eusébio–Caucaia</strong> e em pontos de alta densidade dentro de
+        <strong>Fortaleza</strong> — Aldeota, Fátima, Centro e Maraponga —, combinando painéis próprios
+        e inventário agenciado. Somos o braço de comunicação digital do <strong>Grupo Ret</strong>, o que
+        nos dá lastro operacional e financeiro incomum para uma empresa de três anos.
+      </p>
+      <p>
+        Em março de 2026, a chegada de <strong>Neto Mulato</strong> como sócio e Diretor Comercial marcou o
+        início de um novo ciclo: o de expansão estruturada e de parcerias que ampliem nosso alcance para
+        além do Ceará. Esta apresentação é o primeiro passo desse ciclo.
+      </p>
+    </div>
+
+    <div class="mvv">
+      <article class="mvv__card reveal reveal-d1">
+        <div class="mvv__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>
+        </div>
+        <h3 class="mvv__title">Missão</h3>
+        <p class="mvv__text">
+          Maximizar a visibilidade das marcas e auxiliar nossos parceiros a impulsionar resultados,
+          transformando trajetos urbanos em pontos de conexão entre marcas e pessoas.
+        </p>
+      </article>
+
+      <article class="mvv__card reveal reveal-d2">
+        <div class="mvv__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <h3 class="mvv__title">Visão</h3>
+        <p class="mvv__text">
+          Ser reconhecida como a operação de DOOH mais confiável do Ceará — a referência em
+          qualidade de ativo e em prestação de contas — e a porta de entrada natural para
+          marcas e redes nacionais que queiram atuar no estado.
+        </p>
+      </article>
+
+      <article class="mvv__card reveal reveal-d3">
+        <div class="mvv__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.6 6.6L21 9.3l-4.8 4.3 1.3 6.4-5.5-3.2L6.5 20l1.3-6.4L3 9.3l6.4-.7z"/></svg>
+        </div>
+        <h3 class="mvv__title">Valores</h3>
+        <p class="mvv__text">
+          <strong>Transparência</strong> — o cliente vê o que foi veiculado.
+          <strong>Responsabilidade</strong> — imprevisto nosso não é prejuízo do cliente.
+          <strong>Rigor técnico</strong> — ponto e equipamento escolhidos por critério, não por oportunidade.
+          <strong>Presença</strong> — antes, durante e depois da venda.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GRUPO RET ============ -->
+<section class="section" id="grupo-ret">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">02 — Estrutura</span>
+      <h2 class="sec-title">Grupo Ret</h2>
+      <p class="sec-note">A RETLED não opera sozinha. Ela é a vertical de comunicação digital de um grupo com operação consolidada.</p>
+    </div>
+
+    <p class="lead reveal reveal-d1" style="max-width:74ch;margin-bottom:var(--sp-5)">
+      Este é um ponto central da nossa conversa: quando se avalia uma parceria, avalia-se lastro.
+      A RETLED tem três anos — o <strong>Grupo Ret</strong> tem operação, estrutura física, equipe e
+      capacidade de investimento que sustentam a expansão do inventário sem depender de capital externo.
+    </p>
+
+    <div class="group">
+      <article class="group__item reveal reveal-d1">
+        <div class="group__circle">
+          <!-- SUGESTÃO DE IMAGEM 02: logo da Bradoch em PNG transparente, 800×800px -->
+          <span class="group__ph">Logo<br>Bradoch</span>
+        </div>
+        <h3 class="group__name">Bradoch</h3>
+        <div class="group__card">
+          <p class="group__text" data-editable>
+            [Descrever em 2 a 3 linhas: setor de atuação, tempo de mercado e o que a empresa
+            agrega ao grupo — por exemplo, estrutura industrial, logística ou base de clientes.]
+          </p>
+          <span class="ph-note">Preencher com dados reais</span>
+        </div>
+      </article>
+
+      <article class="group__item reveal reveal-d2">
+        <div class="group__circle">
+          <!-- SUGESTÃO DE IMAGEM 03: logo da Omega em PNG transparente, 800×800px -->
+          <span class="group__ph">Logo<br>Omega</span>
+        </div>
+        <h3 class="group__name">Omega</h3>
+        <div class="group__card">
+          <p class="group__text" data-editable>
+            [Descrever em 2 a 3 linhas: setor de atuação, tempo de mercado e sinergia com a
+            operação de mídia da RETLED.]
+          </p>
+          <span class="ph-note">Preencher com dados reais</span>
+        </div>
+      </article>
+
+      <article class="group__item reveal reveal-d3">
+        <div class="group__circle">
+          <!-- SUGESTÃO DE IMAGEM 04: logo da Usina em PNG transparente, 800×800px -->
+          <span class="group__ph">Logo<br>Usina</span>
+        </div>
+        <h3 class="group__name">Usina</h3>
+        <div class="group__card">
+          <p class="group__text" data-editable>
+            [Descrever em 2 a 3 linhas. Se houver relação com energia ou geração própria, vale
+            destacar: é um argumento de custo operacional e de sustentabilidade para os painéis.]
+          </p>
+          <span class="ph-note">Preencher com dados reais</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ORGANOGRAMA ============ -->
+<section class="section section--alt" id="equipe">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">03 — Time</span>
+      <h2 class="sec-title">Quem conduz a operação</h2>
+      <p class="sec-note">Estrutura enxuta e sem intermediários: quem decide atende, quem atende executa.</p>
+    </div>
+
+    <div class="org">
+      <div class="org__tier reveal">
+        <span class="org__tier-lbl">Sociedade e direção</span>
+        <div class="org__row">
+
+          <article class="person">
+            <div class="person__photo">
+              <!-- SUGESTÃO DE IMAGEM 05: retrato de Carlos Ribeiro, 1000×1060px, fundo neutro
+                   escuro, luz lateral. O CSS aplica preto e branco e revela a cor no hover. -->
+              <span class="person__ph">Foto<br>Carlos Ribeiro</span>
+            </div>
+            <div class="person__body">
+              <h3 class="person__name">Carlos Ribeiro</h3>
+              <p class="person__role">Sócio-fundador</p>
+              <p class="person__bio" data-editable>
+                [2 a 3 linhas: trajetória, área de responsabilidade na RETLED e o que ele
+                pessoalmente garante ao cliente ou ao parceiro.]
+              </p>
+              <span class="ph-note">Revisar biografia</span>
+            </div>
+          </article>
+
+          <article class="person">
+            <div class="person__photo">
+              <!-- SUGESTÃO DE IMAGEM 06: retrato de Leydson Souza, mesmo padrão -->
+              <span class="person__ph">Foto<br>Leydson Souza</span>
+            </div>
+            <div class="person__body">
+              <h3 class="person__name">Leydson Souza</h3>
+              <p class="person__role">Sócio-fundador</p>
+              <p class="person__bio" data-editable>
+                [2 a 3 linhas: trajetória e área de responsabilidade.]
+              </p>
+              <span class="ph-note">Revisar biografia</span>
+            </div>
+          </article>
+
+          <article class="person">
+            <div class="person__photo">
+              <!-- SUGESTÃO DE IMAGEM 07: retrato de Neto Mulato, mesmo padrão -->
+              <span class="person__ph">Foto<br>Neto Mulato</span>
+            </div>
+            <div class="person__body">
+              <h3 class="person__name">Neto Mulato</h3>
+              <p class="person__role">Sócio e Diretor Comercial</p>
+              <p class="person__bio">
+                Mais de 20 anos em marketing, vendas e desenvolvimento de negócios. Entrou na
+                sociedade em março de 2026 para liderar a expansão comercial e a construção de
+                novas frentes de mercado — esta parceria entre elas.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="org__connector reveal" aria-hidden="true"></div>
+
+      <div class="org__tier reveal">
+        <span class="org__tier-lbl">Operação, comercial e conteúdo</span>
+        <div class="org__row">
+          <article class="person">
+            <div class="person__photo">
+              <span class="person__ph">Foto<br>Nome</span>
+            </div>
+            <div class="person__body">
+              <h3 class="person__name" data-editable>[Nome]</h3>
+              <p class="person__role" data-editable>[Operações / Manutenção]</p>
+              <p class="person__bio" data-editable>[Responsável por instalação, monitoramento e manutenção dos painéis.]</p>              <span class="ph-note">Preencher</spa
+(Content truncated due to size limit. Use line ranges to read remaining content)
